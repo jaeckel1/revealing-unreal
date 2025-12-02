@@ -1,5 +1,6 @@
 # Revealing the Unreal: Forensic Analysis of AI-Generated Sexually Explicit Content from Diffusion Models
-This repository contains results from the paper “Revealing the Unreal: Forensic Analysis of AI-Generated Sexually Explicit Content from Diffusion Models” by Lukas Jaeckel, Quentin Stickler and Dirk Labudde. **The generated images used for the experiments are available on request**.
+This repository contains results from the paper “Revealing the Unreal: Forensic Analysis of AI-Generated Sexually Explicit Content from Diffusion Models” by Lukas Jaeckel, Quentin Stickler and Dirk Labudde.
+**The generated images used for the experiments are available on request**.
 
 ## Assessment of Image Quality
 For each model, the directory *image_quality* contains a CSV file that assigns a BRISQUE value to each image.
