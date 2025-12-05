@@ -1,0 +1,17 @@
+BRISQUE – ANOVA + Tukey-HSD Analyse
+============================================
+
+ANOVA:
+Source            df         sum_sq        mean_sq           F     p-value
+C(model)           3    159949.0788     53316.3596    313.4169      0.0000
+Residual        4316    734208.6238       170.1132           -           -
+
+Tukey HSD:
+group1                   group2                       meandiff     p-adj       lower       upper    reject
+brisque_scores_RealVisXL brisque_scores_SDXL           16.8886    0.0000     15.4461     18.3311      True
+brisque_scores_RealVisXL brisque_scores_SD_3_5_L        7.3434    0.0000      5.9009      8.7858      True
+brisque_scores_RealVisXL brisque_scores_SD_3_5_M       10.5756    0.0000      9.1331     12.0181      True
+brisque_scores_SDXL      brisque_scores_SD_3_5_L       -9.5452    0.0000    -10.9877     -8.1027      True
+brisque_scores_SDXL      brisque_scores_SD_3_5_M       -6.3130    0.0000     -7.7555     -4.8705      True
+brisque_scores_SD_3_5_L  brisque_scores_SD_3_5_M        3.2322    0.0000      1.7897      4.6747      True
+
